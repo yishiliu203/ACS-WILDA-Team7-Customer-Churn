@@ -1,0 +1,13 @@
+# Data Manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning & Preprocessing
+scikit-learn>=1.2.0
+
+# Visualization (used for your data exploration)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: Notebook support if using Google Colab/Jupyter
+ipykernel
