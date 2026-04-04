@@ -1,9 +1,10 @@
 # Importing libraries
 import pandas as pd
+from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # Load dataset
-df = pd.read_csv("dataset_with_clusters.csv")
+df = pd.read_csv('Clustering_Analysis/dataset_with_clusters.csv')
 
 # Separate features (X) and target (y)
 X = df.drop(columns=["Churn"])  # all columns except target
